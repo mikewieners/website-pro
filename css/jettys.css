@@ -1,0 +1,48 @@
+﻿/*logo font - font-family: 'Fugaz One', cursive;
+  body font - font-family: 'Montserrat', sans-serif;*/
+
+body
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-content
+{
+    background-color: #000271;
+}
+
+    .main-content > div
+    {
+        text-align: center;
+    }
+
+.navbar
+{
+    background-color: black;
+    height: 80px;
+    margin-bottom: 0;
+}
+
+.nav li > a > img
+{
+    height: 50px;
+}
+
+.carousel-inner
+{
+    vertical-align: middle;
+    height: 500px;
+}
+
+.carousel-inner > div > img
+{
+    height: 220px;
+    margin: 0 auto;
+}
+
+.footer-wrapper > div
+{
+    background-color: black;
+    color: white;
+    min-height: 300px;
+}

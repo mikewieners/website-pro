@@ -1,0 +1,90 @@
+﻿/*fonts from google font
+font-family: 'Droid Serif', serif;
+font-family: 'Montserrat', sans-serif;
+    color scheme:   Dark blue: #3B29FF
+                    Gold: #FFBA0F
+                    Dull Orange: #E87227
+                    Red: #FF292A
+                    Whitish purple: #DFB9E8
+    */
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+}
+
+#siteHeader
+{
+    font-size: 1.25em;
+    height: 20vh;
+    min-height: 200px;
+    background-color: #3B29FF;
+    padding: 6vh 0 0 0;
+}
+
+    #siteHeader h1
+    {
+        color: white;
+        font-size: 3em;
+    }
+
+.navbar-static-bottom
+{
+    bottom: 0;
+    background-color: #3B29FF;
+    border-style: none;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.navbar-fixed-top
+{
+    background-color: #3B29FF;
+    border-style: none;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+    .navbar-default .navbar-nav > li > a,
+    .navbar-default .navbar-brand
+    {
+        color: white;
+    }
+
+    .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus
+    {
+        color: white;
+        background-color: #FFBA0F;
+    }
+
+.section-header
+{
+    text-align: center;
+    font-size: 2em;
+}
+
+#about
+{
+    padding-top: 40px;
+    background-color: white;
+    height: 100vh;
+}
+
+#resume
+{
+    padding-top: 40px;
+    background-color: #3B29FF;
+    width: 100%;
+    color: #FFFFFF;
+}
+
+#about .row
+{
+    background-color: #999999;
+}
